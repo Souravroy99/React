@@ -1,0 +1,3 @@
+** Reconciliation: It is the algorithm that React uses to differenciate "Browser DOM" with "Virtual Dom" to determine which part to be changed.
+
+** Reconciliation is the algorithm behind what is popularly understood as the "Virtual Dom".
