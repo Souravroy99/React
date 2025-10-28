@@ -6,7 +6,19 @@ function App() {
 
   const modifyFunc = (val) => {
     setCounter((count) => count + val) ;
+    setCounter((count) => count + val) ;
+    setCounter((count) => count + val) ;
   }
+
+/*
+  React optimizes performance by batching multiple state updates together in the same event (like a button click).
+  Even though you called setCounter() three times, React doesn’t immediately re-render after each one.
+
+   Instead, it:
+    1.) Queues all three updates.
+    2.) Runs them together in one render pass.
+*/
+
 
   return (
     <>
