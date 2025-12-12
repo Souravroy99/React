@@ -9,8 +9,8 @@ const Login = () => {
     const { setUser } = useContext(UserContext) ;
 
     const handleSubmit = (e) => {
-        e.preventDefault();
-        setUser({username, password})
+      e.preventDefault();
+      setUser({username, password})
     }
 
   return (
