@@ -1,0 +1,12 @@
+.parent{
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.card{
+  /* width: 200px; */
+  border: 5px solid white;
+  padding: 6px;
+  background-color: black;
+  color: red;
+}
