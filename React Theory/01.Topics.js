@@ -20,7 +20,7 @@ Synthetic events
 
 useState batching & async behavior
 
-useEffect lifecycle mapping
+useEffect lifecycle mapping 
 
 Dependency array pitfalls
 
